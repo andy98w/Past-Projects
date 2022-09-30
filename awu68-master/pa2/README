@@ -1,0 +1,7 @@
+This program was written to run Breadth First searches on graphs constructed with Graph ADTs. These Graph ADTs utilize an array of Linked List
+ ADTs to store adjacent vertices. Each of these Linked Lists can be accessed using Graph->array[i]. This also applies to the other arrays used 
+ to store colors, distance, and parents. Color is used for the BFS algorithm, and distance calculates distance from a source vertex to the 
+ given vertex. This program should be run with an input file and an output file given in that order to the command ./Findpath after running 
+ the make file. Furthermore, a GraphTest.c file can be ran using 'Make GraphTest' and executed with ./GraphTest. This will not run the main 
+ FindPath file but rather test the Graph ADT using all of its functions. Graph will also include a List.h and List.c file to reference the 
+ List ADTs. Graph.h stores all of the functions defined in Graph.c, the main part of the Graph ADT with all of its functions. 

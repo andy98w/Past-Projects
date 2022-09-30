@@ -1,0 +1,23 @@
+PA6 runs an executable called Arithmetic  with a linked list ADT in C++. This program runs the Airthmetic's such as multiplication and addition
+on big integers that are too long to be stored in the types in c++. Instead, we store these in our linked list ADT that we defined in pa5.
+Arithmetic.cpp:
+    The executable program ./Arithmetic <inputfile> <outputfile> executes to the output file multiplication and addition of the two big integers
+    in the input file. This will only take the first two integers of the input file as any more will be ignored. That being said, the first line must
+    be a number, the second will be a blank, and the third will be a number.
+List.cpp:
+    This cpp program is the main part of our list ADT. We use this in accordance with List.h to declare our functions for our lists to be used in 
+    other programs like ListTest and Arithmetic, and Biginteger. The full list of functions will be in List.h.
+List.h:
+    Header file for our list ADT. It will contain all the functions and declare our list ADT struct.
+ListTest.cpp:
+    A test to try all the functions in List.cpp. Run with 'Make ListTest' and ./ListTest.
+BigInteger.cpp:
+    The program that holds out BigInteger ADT. It contains the functions to run the arithmetics such as "add" and "sub" and "mult". It also contains
+    constructors and overloaded operands so that we can easily call them in our Arithmetic program to compute our large numbers. The list of functions
+    are in BigInteger.h.
+BigInteger.h:
+    Header file for our BigInteger ADT.
+BigIntegerTest.cpp:
+    A test program to try functions in BigInteger.cpp. Run with 'Make BigIntegerTest' and ./BigIntegerTest.
+Makefile:
+    Makefile for our program, shows command line prompts.

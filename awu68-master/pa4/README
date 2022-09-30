@@ -1,0 +1,7 @@
+Programming assignment 4 uses a Matrix ADT that points to an array of lists. Each list has "entries" which are another private node struct in the
+Matrix.c file which has a double value and an integer column. Thus, we changed our list ADT to hold void pointer values. We will perform several
+arithematic functions on the matrices created by the Sparse file, the main executable of this programming assignment. We do this by iterating through
+each 'i' list (Matrix->list[i]) and finding the column integer of each entry, and then computing using the double value of each entry. This program 
+also comes with a Matrix test and a list test which can be used by the command 'make MatrixTest' and 'make ListTest' to test the ADTs for each. 
+The main Sparse executable will be run using ./Sparse <inputfile> <outputfile>. List.c and List.h hold contents of the List ADT and Matrix.c and 
+Matrix.h hold the contents of the Matrix ADT. As always, .h are header files. 
