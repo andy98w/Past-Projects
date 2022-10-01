@@ -1,0 +1,16 @@
+PA8 runs two executables called Order and WordFrequency with a Dictionary ADT in C++. This program assigns each line of the input file to the order that it was read, stores values into the Dictionary ADT, and prints the sorted values based on alphabetical order into the output file. It also counts
+words with WordFrequency and stores the number of times they appear into val of node. 
+Order.cpp:
+    The executable program ./Order <inputfile> <outputfile> executes to the output file lines that read "key : value\n" with key being the word read 
+    from the input file, and value being the order it was read.
+WordFrequency.cpp:
+    Executable program ./WordFrequency <inputfile> <outputfile> executes to the output file words that read "key : value\n" with key being the word 
+    read from input file and value being the number of times it appears in the input file.
+Dictionary.cpp:
+    This cpp program is the main part of our Dictionary ADT. It defines all our functions and helper functions as well as node definition function.
+Dictionary.h:
+    Header file for our Dictionary ADT. It will contain all the functions and declare our Dictionary ADT struct.
+DictionaryTest.cpp:
+    A test to try all the functions in Dictionary.cpp. Run with 'Make DictionaryTest' and ./DictionaryTest.
+Makefile:
+    Makefile for our program, shows command line prompts.

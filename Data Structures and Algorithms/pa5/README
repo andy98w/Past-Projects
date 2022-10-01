@@ -1,0 +1,14 @@
+PA5 runs an executable called shuffle with a linked list ADT in C++. This program runs the 'perfect shuffle' algorithm on a set number of cards. 
+Shuffle:
+    The executable program ./Shuffle <number of cards> prints a list of 1 to n number of cards and how many perfect shuffles it takes to reset the 
+    deck back to the starting point (in order from 0 to n-1). Thus, each length of cards will be n and the highest value card will be n-1. Shuffle
+    uses our list ADT to concatenate two seperate lists developed from splitting the original list of cards in two. 
+List.cpp:
+    This cpp program is the main part of our list ADT. We use this in accordance with List.h to declare our functions for our lists to be used in 
+    other programs like shuffle. The full list of functions will be in List.h.
+List.h:
+    Header file for our list ADT. It will contain all the functions and declare our list ADT struct.
+ListTest.cpp:
+    A test to try all the functions in List.cpp. Run with 'Make ListTest' and ./ListTest.
+Makefile:
+    Makefile for our program, shows command line prompts.
